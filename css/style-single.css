@@ -1,0 +1,96 @@
+section#single ul.relacionadas{list-style:none; padding:0; margin:0;}
+
+ion#single ul.relacionadas{list-style:none; padding:0; margin:0;}
+ion#single ul.relacionadasction#single ul.relacionadas li{padding:0.25em 0;}
+
+
+section#single{
+padding:1.5em 0;	
+}
+
+section#single h1{
+font-weight:800;
+text-align:left;
+margin:0;
+padding:0.5em 0;	
+}
+
+section#single h2{
+font-weight:800;
+text-align:left;	
+margin:0;
+padding:1em 0;	
+}
+section#single h2 span{
+padding:0.225em 0.5em 0.3em 0.5em;
+font-family: 'Open Sans Condensed', sans-serif; 
+border:2px solid black; 
+letter-spacing:0.2em; 
+font-weight:800; 
+background:rgba(255,255,255,0.6);
+color:black;
+margin:0.25em 0.25em 0.4em 0.25em;	
+border-radius: 0;
+text-indent:0;	
+margin-left:-0.25em;
+}
+
+
+
+section#single h3{
+font-family: 'Alegreya', serif; 
+font-style:italic;
+font-weight:300;
+text-aling:left;
+margin:0 0 1em 0;
+padding:0.5em 0;	
+}
+
+section#single h3 a{
+color:black;
+}
+
+section#single h3 a:hover{
+color:#f00;
+text-decoration:none;	
+}
+
+section#single h4{
+font-family: 'Open Sans', sans-serif; 
+font-weight:800;
+text-transform:uppercase;
+}
+
+section#single h5{
+font-family: 'Open Sans', sans-serif; 
+font-style:normal;
+font-weight:800;
+text-aling:left;
+line-height:1.3;
+}
+
+
+section#single div.data{
+padding:0;
+margin-bottom:3em;
+}
+
+section#single div.data p{
+font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+section#single div.data p a{
+padding-right:1em;
+text-decoration:none;
+color:#aaa; 
+}
+
+section#single div.data p a:hover{color:#666;}
+
+
+
+section#single p{
+font-family: 'Alegreya', serif; 
+font-weight:400; 
+color:#555;
+}

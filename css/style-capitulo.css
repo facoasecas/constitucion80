@@ -1,0 +1,46 @@
+.tab-pane{
+padding:1em;
+background:white;
+margin-bottom:3em;	
+}
+
+li.active{border:none;}
+
+
+.texto-constitucional{
+font-family: 'Alegreya', serif;
+border:5px double black;
+}
+
+
+#constitucion h1, #constitucion h2, #constitucion h3 {
+text-align:center;
+padding:1em 0;
+margin:0;	
+}
+
+.nav-tabs{border:none;}
+
+ul.indice{
+list-style:none;
+margin:0;
+padding:0;
+font-family: 'Open Sans Condensed', sans-serif; 
+font-weight:600;
+}
+
+ul.indice li{
+padding:0.25em 0;
+color:silver;
+border-bottom:1px solid #ddd;
+}
+
+ul.indice li a{color:#ccc; letter-spacing:0.01em;}
+
+ul.indice li a:hover{color:#000;}
+
+ul.indice li.active{color:#000; border:5px double black;}
+
+ul.indice li.active a{color:#333;}
+
+

@@ -1,0 +1,70 @@
+/* HEADER CON FOTOS Y FRASE */
+
+header.fill { 
+min-height: 75%;
+width:100%;
+position:relative;
+}
+
+div#citas{
+text-align:center;	
+bottom:1.8em;
+left:0;
+width:100%;
+position:absolute;
+}
+
+div#citas p{
+font-family: 'Alegreya', serif;
+font-weight:400;
+font-style:italic;	
+line-height:1.2;
+color:rgba(255,255,255,0.9);
+font-size:1.8em;	
+}
+
+div#citas p span.autor{font-style:normal; color:rgba(255,255,255,0.7);}
+
+
+/* FRANJA PARA CAPÍTULOS */
+
+#indice{
+font-family: 'Open Sans Condensed', sans-serif; 
+padding:1em 0;
+background:#EDDCCE;
+text-align:center;
+background:linear-gradient(RGBA(236, 220, 204, 0.75),RGBA(236, 220, 204, 0.75)), url("../images/guzman.png");
+background-repeat:no-repeat;
+background-position:right top;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+}
+
+#indice p{font-weight:700;}
+
+
+
+#indice a{
+margin:0.5em;
+display:inline-block;
+width:3em;
+height:3.75em;
+padding-top:1em;
+vertical-align: text-bottom;
+line-height:1.25;
+border:2px solid black;
+background:white;
+color:rgba(0,0,0,0.9);
+}
+
+#indice a:hover{
+text-decoration:none;
+border:3px solid black;
+color:rgba(0,0,0,1);
+}
+
+#indice p a.sigue{dsplay:inline; background:none; border:none; width:auto; height:auto; padding:1px; margin:0;}
+
+#indice p a.sigue:hover{color:rgba(55,55,100,1);}

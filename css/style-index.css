@@ -1,0 +1,384 @@
+/* ACTUALIDAD */
+section#actualidad{
+	padding:2em 0;
+	clear:both;
+}
+
+section#actualidad a{color:rgba(0,0,0,0.75);}
+section#actualidad a:hover{color:rgba(0,0,0,1);}
+
+section#actualidad article figure{
+	position: relative;
+	cursor: pointer;
+}
+section#actualidad article figure:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(255,255,255, 0);
+	}
+section#actualidad article:hover figure:before {
+	background: rgba(255,255,255, 0.5);
+}
+section#actualidad article.poder:hover figure:before{background:rgba(244,67,54,0.5);}
+section#actualidad article.territorio:hover figure:before{background:rgba(161,136,177,0.5);}
+section#actualidad article.ambiente:hover figure:before{background:rgba(139,195,74,0.5);}
+section#actualidad article.trabajo:hover figure:before{background:rgba(255,87,34,0.5);}
+section#actualidad article.salud:hover figure:before{background:rgba(33,150,243,0.5);}
+section#actualidad article.cultura:hover figure:before{background:rgba(0,150,136,0.5);}
+section#actualidad article.educacion:hover figure:before{background:rgba(0,188,212,0.5);}
+
+section#actualidad article h3 a{color:RGBA(31, 47, 60, 1);}
+section#actualidad article.poder:hover h3 a{color:#F44336;}
+section#actualidad article.territorio:hover h3 a{color:#A1887F;}
+section#actualidad article.ambiente:hover h3 a{color:#8BC34A;}
+section#actualidad article.trabajo:hover h3 a{color:#FF5722;}
+section#actualidad article.salud:hover h3 a{color:#2196F3;}
+section#actualidad article.cultura:hover h3 a{color:#009688;}
+section#actualidad article.educacion:hover h3 a{color:#00BCD4;}
+
+section#actualidad article figure img{width:100%; height:auto;}
+
+section#actualidad article figcaption{
+	position:absolute;
+	top:0.7em;
+	left:0.5em;
+	z-index:2;
+}
+
+section#actualidad article figcaption a {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:80%;
+	font-weight:700; 
+	letter-spacing:0.1em;
+	padding:0.25em 0.5em;
+	border:2px solid black;
+	background:rgba(255,255,255,1);
+	color:black;
+}
+
+section#actualidad article figcaption a:hover {
+background:rgba(255,255,255,1);
+color:black;
+text-decoration:none;
+}
+
+	section#actualidad article.poder figcaption a:hover {
+		color:#F44336;
+		border:2px solid #F44336;
+	}
+	section#actualidad article.territorio figcaption a:hover {
+		color:#A1887F;
+		border:2px solid #A1887F;
+	}
+	section#actualidad article.ambiente figcaption a:hover {
+		color:#8BC34A;
+		border:2px solid #8BC34A;
+	}
+	section#actualidad article.trabajo figcaption a:hover {
+		color:#FF5722;
+		border:2px solid #FF5722;
+	}
+	section#actualidad article.salud figcaption a:hover {
+		color:#2196F3;
+		border:2px solid #2196F3;
+	}	
+	section#actualidad article.cultura figcaption a:hover {
+		color:#009688;
+		border:2px solid #009688;
+	}	
+	section#actualidad article.educacion figcaption a:hover {
+		color:#00BCD4;
+		border:2px solid #00BCD4;
+	}	
+
+section#actualidad article cite{
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:100%;
+	z-index:2;
+	text-align:right;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:90%;
+	font-weight:300; 
+	font-style:normal;
+	letter-spacing:0.1em;
+	padding:1em 1em 0.5em 0.5em;
+	color:white;
+	background: rgba(0,0,0,0);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.5)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+
+section#actualidad article:hover cite{
+	background:transparent;
+}
+
+section#actualidad article cite a{
+	color:white;
+	text-shadow:0 0 0.5em rgba(0,0,0,0.5);	
+}
+
+
+section#actualidad article[class^="col-"] h1,
+section#actualidad article[class^="col-"] h2,
+section#actualidad article[class^="col-"] h3,
+section#actualidad article[class^="col-"] h4,
+section#actualidad article[class^="col-"] h5,
+section#actualidad article[class^="col-"] h6
+section#actualidad article[class^="col-"] p{
+margin:0;
+padding:0;
+}
+
+section#actualidad article[class^="col-"] h1,
+section#actualidad article[class^="col-"] h2,
+section#actualidad article[class^="col-"] h3,
+section#actualidad article[class^="col-"] h4{
+font-weight:800;	
+}
+
+section#actualidad article[class^="col-"] h3{
+padding:0.5em 0;	
+}
+
+
+section#actualidad article[class^="col-"] p {
+	font-family: 'Alegreya', serif; 
+	font-weight:400; 
+	color:#555;
+	padding:0 0 1em 0;
+}
+
+section#actualidad article[class^="col-"] p i{
+	font-family: 'Alegreya', serif; 
+	font-weight:600; 
+	font-style:italic;
+	color:#555;
+}
+
+
+/* ETIQUETAS */
+
+section#etiquetas{
+padding:2em 0;
+clear:both;	
+text-align:center;
+background:RGBA(0, 0, 0, 0.01);
+}
+
+section#etiquetas p {font-weight:800; color:rgba(31, 47, 60, 1);}
+
+
+/* ANECDOTARIO */
+
+section#anecdotario{
+padding:2em 0;
+clear:both;	
+background:RGBA(255, 255, 255, 0.5);
+}
+
+section#anecdotario a{color:rgba(13, 65, 103, 1);}
+
+section#anecdotario a:hover{color:rgba(12, 15, 31, 1);}
+
+
+section#anecdotario div.row {
+	padding:1em 0;
+}
+
+section#anecdotario div.gris {
+}
+
+
+section#anecdotario div[class^="col-"] figure {
+	position:relative;
+	padding-bottom:1em;
+}
+
+section#anecdotario div[class^="col-"] figure img{
+	width:100%;
+	height:auto;
+}
+
+
+section#anecdotario div[class^="col-"] figure figcaption{
+	position:absolute; 
+	left:1em; 
+	top:1.25em; 
+	z-index:2;
+}
+
+section#anecdotario div[class^="col-"] figure figcaption a {
+padding:0.25em 0.5em;
+font-family: 'Open Sans Condensed', sans-serif; 
+border:2px solid black; 
+letter-spacing:0.2em; 
+font-weight:800; 
+background:rgba(255,255,255,0.5);
+color:black;
+}
+
+section#anecdotario div[class^="col-"] figure figcaption a:hover {
+background:rgba(255,255,255,1);
+color:black;
+text-decoration:none;
+}
+
+section#anecdotario div[class^="col-"] h2{
+font-weight:800;
+letter-spacing:0.1em;
+}
+
+section#anecdotario div[class^="col-"] h3{
+font-weight:800;
+line-height:1.25;
+margin:0.36em 0; 
+padding:0;	
+}
+
+section#anecdotario div[class^="col-"] h4{
+font-family: 'Alegreya', serif;
+font-weight:400;
+line-height:1.35;
+margin-bottom:1em;	
+}
+
+
+
+/* ARTICULOS DE OPINION */
+
+section#opinion{
+padding:2em 0;
+clear:both;	
+background:white;
+}
+
+section#opinion article{
+padding:0; 
+margin:0;
+}
+
+section#opinion article div.row{
+padding:2em 0; 
+margin:0 0; 
+margin:0;
+}
+
+section#opinion article.poder:hover div.row{
+background:#F44336;	
+}
+
+section#opinion article.territorio:hover div.row{
+background:#A1887F;	
+}
+
+section#opinion article.ambiente:hover div.row{
+background:#8BC34A;	
+}
+
+section#opinion article.trabajo:hover div.row{
+background:#FF5722;	
+}
+
+section#opinion article.salud:hover div.row{
+background:#2196F3;	
+}
+
+section#opinion article.cultura:hover div.row{
+background:#009688;	
+}
+
+section#opinion article.educacion:hover div.row{
+background:#00BCD4;	
+}
+
+section#opinion article.civiles:hover div.row{
+background:#E91E63;	
+}
+
+section#opinion article div.row a{
+color:black;
+}
+
+section#opinion article div.row div[class^="col-"] img{
+width:100%;
+height:auto;
+-webkit-filter: grayscale(0); 
+filter: grayscale(0);	
+}
+
+section#opinion article:hover div.row div[class^="col-"] img{
+width:100%;
+height:auto;
+-webkit-filter: grayscale(100%); 
+filter: grayscale(100%);	
+}
+
+section#opinion article .row div[class^="col-"] h1,
+section#opinion article .row div[class^="col-"] h2,
+section#opinion article .row div[class^="col-"] h3,
+section#opinion article .row div[class^="col-"] h4,
+section#opinion article .row div[class^="col-"] h5,
+section#opinion article .row div[class^="col-"] h6
+section#opinion article .row div[class^="col-"] p{
+margin:0;
+padding:0;
+}
+
+section#opinion article .row div[class^="col-"] h3{
+padding:0 0 0.5em 0;
+font-family: 'Open Sans', sans-serif; 
+font-weight:800;
+line-height:1.3;	
+}
+
+section#opinion article .row div[class^="col-"] h4{
+padding:0.3em 0 0.9em 0;
+font-family: 'Open Sans', sans-serif; 
+font-weight:600;
+line-height:1.3;		
+}
+
+
+
+section#opinion article .row div[class^="col-"] h5{
+padding:0.1em 0 1em 0;
+font-family: 'Open Sans', sans-serif; 
+font-weight:800;
+letter-spacing:0.1em;
+line-height:1.3;	
+}
+
+section#opinion article .row div[class^="col-"] p a{
+padding:0.25em 0.5em;
+font-family: 'Open Sans Condensed', sans-serif; 
+border:2px solid black; 
+letter-spacing:0.2em; 
+font-weight:800; 
+background:rgba(255,255,255,1);
+color:black;
+}
+
+section#opinion article .row div[class^="col-"] p a:hover{
+text-decoration:none;
+background:rgba(255,255,255,0.5);
+}
+
+
+/* HISTORIA */
+
+section#historia{
+padding:1.5em;
+clear:both;	
+}
